@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <h1>Luke Baart</h1>
+      </div>
+      <nav>
+        <button class="mobile">
+          <span class="material-symbols-outlined"> menu </span>
+        </button>
+        <ul>
+          <li><a href="#contact">BCH</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact">contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hero-image">
+        <img src="banner.png" class="hero-image" />
+        <div class="hero-text">
+          <h1 style="font-size: 50px">Luke Baart</h1>
+          <p>Portfolio Project</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--1">
+          <img src="pexels-julia-kuzenkov-1974521.jpg" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--2">
+          <img src="ETb2xLjvc62eb7PPLspSsU-1200-80.jpg" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--3">
+          <img src="TJdORs7iyJT91csQVdw7JawD.avif" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--4">
+          <img src="54f65d39ab05d_-_183341797.jpg" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--5">
+          <img src="ade.jpeg" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--6">
+          <img src="Logo-tomorrowland.jpg" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--7">
+          <img src="Sydney.jpeg" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--8">
+          <img src="bbq.webp" class="gallery__img" />
+        </figure>
+        <figure class="gallery__item gallery__item--9">
+          <img src="SocialMonster-Energy-Collectin.jpg" class="gallery__img" />
+        </figure>
+      </div>
+    </main>
+    <footer id="contact">
+      <div class="form">
+        <form action="/action_page.php">
+          <label for="fname">Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Email</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your email"
+          />
+
+          <label for="subject">Message</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <small>Copyright 2023</small>
+      <button class="btn" id="backToTop">Back to top</button>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
